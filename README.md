@@ -1,9 +1,12 @@
 # chromium-command-line
 chromium-command-line
 
->>--user-data-dir="Data" //数据重定向存储当前目录
->>--user-data-dir="..\Data" //数据重定向存储到上层目录
---disk-cache-dir="Cache" //缓存重定向存储存当前目录
+>>--user-data-dir="Data" 
+
+>>--user-data-dir="..\Data" 
+
+>>--disk-cache-dir="Cache"
+
 --no-first-run //不显示首次运行向导
 --force-local-ntp //强制本地NTP
 --disable-logging //禁用记录日志
